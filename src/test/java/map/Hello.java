@@ -3,9 +3,10 @@ package map;
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-   System.out.println("Hello world");
-   System.out.println("Hello Java");
+		
+  String str="Hello world";
+   System.out.println(str.indexOf(str.substring(0,1)));
+   System.out.println(str.lastIndexOf(str.substring(1,2)));
 	}
 
 }
