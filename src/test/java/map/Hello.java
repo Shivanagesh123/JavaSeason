@@ -8,7 +8,7 @@ public class Hello {
    System.out.println(str.indexOf(str.substring(0,1)));
    System.out.println(str.lastIndexOf(str.substring(1,2)));
    System.out.println("the print statement is changed to track changes in gitHub");
-   System.out.println("The String is modified");
+   System.out.println("The String str is modified");
    }
 
 }
